@@ -1,0 +1,21 @@
+DROP TABLE `persons`;
+
+CREATE TABLE `persons` (
+  `id` int(8) unsigned NOT NULL auto_increment,
+  `fname` varchar(255) default NULL,
+  `lname` varchar(255) default NULL,
+  `phone` varchar(100) default NULL,
+  PRIMARY KEY (`id`)
+) AUTO_INCREMENT=1;
+
+INSERT INTO `persons` (`id`,`fname`,`lname`,`phone`) VALUES (1,"Gillian","Chapman","82911241"),(2,"Todd","Talley","88710400"),(3,"Kelly","Jacobs","73726471"),(4,"Dora","Huber","11724930"),(5,"Gareth","Burks","85850658"),(6,"Kato","Wall","13545261"),(7,"Martha","Anthony","99110320"),(8,"Erin","Sweeney","02617757"),(9,"Victor","Morin","39446002"),(10,"Lucas","Mcintyre","70480536");
+INSERT INTO `persons` (`id`,`fname`,`lname`,`phone`) VALUES (11,"Hayley","Lloyd","81995498"),(12,"Destiny","Lee","14908214"),(13,"Steven","Franks","73484587"),(14,"Karyn","Pickett","18588682"),(15,"Jameson","Roach","73026808"),(16,"Desiree","Leach","20494616"),(17,"Mia","Fleming","38759154"),(18,"Chantale","Lester","75572952"),(19,"Rylee","Vang","77804067"),(20,"Victoria","Donaldson","36491573");
+INSERT INTO `persons` (`id`,`fname`,`lname`,`phone`) VALUES (21,"Denise","Wilkerson","77104063"),(22,"Quintessa","Cross","85536231"),(23,"Taylor","Nash","70542013"),(24,"Raphael","Wheeler","92787996"),(25,"Emily","Kim","10785966"),(26,"MacKensie","Rasmussen","64987431"),(27,"Alvin","Rodriquez","41972466"),(28,"Raphael","Wheeler","86813268"),(29,"Bethany","Boyer","17726218"),(30,"Thor","Hale","40825901");
+INSERT INTO `persons` (`id`,`fname`,`lname`,`phone`) VALUES (31,"Francis","Puckett","24538082"),(32,"Adena","Faulkner","82884161"),(33,"Shay","Farrell","45864343"),(34,"Sade","Mathews","22084624"),(35,"Elizabeth","Raymond","45204836"),(36,"Hammett","Hunt","07729142"),(37,"Adara","Camacho","53435047"),(38,"Harlan","Ruiz","93933109"),(39,"Linus","Brewer","70193817"),(40,"Xena","Jackson","35275660");
+INSERT INTO `persons` (`id`,`fname`,`lname`,`phone`) VALUES (41,"Trevor","Dudley","45147771"),(42,"Kiayada","Buckley","90647946"),(43,"Mona","Delgado","12587291"),(44,"Colin","Mendez","93926493"),(45,"Xander","Duncan","04941593"),(46,"Emery","Vega","68765626"),(47,"Tad","Compton","67044437"),(48,"Kylie","Hammond","88296004"),(49,"Charles","Riggs","81306904"),(50,"Erin","Meyer","17013574");
+INSERT INTO `persons` (`id`,`fname`,`lname`,`phone`) VALUES (51,"Victoria","Keith","73797851"),(52,"Connor","Poole","52046254"),(53,"Victoria","Cantu","72645129"),(54,"Caryn","Berg","10572179"),(55,"Ahmed","Griffith","96363944"),(56,"Rhona","Richardson","31552998"),(57,"Kaseem","Clark","88910372"),(58,"Teegan","Osborn","90056444"),(59,"Stephanie","Fitzpatrick","23402231"),(60,"Chanda","Townsend","81236524");
+INSERT INTO `persons` (`id`,`fname`,`lname`,`phone`) VALUES (61,"Nasim","Stanley","58937253"),(62,"Sage","Camacho","80102055"),(63,"September","Rutledge","88553290"),(64,"Melvin","Flores","04088297"),(65,"Jameson","Nielsen","96094996"),(66,"Natalie","Stout","12271521"),(67,"Orli","Buck","00002604"),(68,"Curran","Case","93106186"),(69,"Germaine","Ramsey","39563925"),(70,"Ariana","Zamora","33416251");
+INSERT INTO `persons` (`id`,`fname`,`lname`,`phone`) VALUES (71,"Noelle","Bell","45344085"),(72,"Gretchen","Mcmillan","23315965"),(73,"Steel","Adams","73734016"),(74,"Kaye","Huber","35670365"),(75,"Yvonne","Jacobson","60870554"),(76,"Yoshio","Cole","24819511"),(77,"Blythe","Reeves","03853359"),(78,"Kameko","Benjamin","33439633"),(79,"Aidan","Maynard","57083413"),(80,"Edan","Gibbs","38144623");
+INSERT INTO `persons` (`id`,`fname`,`lname`,`phone`) VALUES (81,"Knox","Scott","89772033"),(82,"Alfreda","Hahn","12297309"),(83,"Devin","Holder","38338175"),(84,"Geraldine","Caldwell","25889858"),(85,"Finn","Bolton","78642759"),(86,"Joy","Rios","46952213"),(87,"Thane","Bell","47743333"),(88,"Nolan","Fitzpatrick","50412733"),(89,"Garrett","Sosa","33785884"),(90,"Kenyon","Casey","45586871");
+INSERT INTO `persons` (`id`,`fname`,`lname`,`phone`) VALUES (91,"Naida","Manning","74162685"),(92,"Eagan","Carroll","91830224"),(93,"Daphne","Dillard","73913299"),(94,"Jaden","Cunningham","48669371"),(95,"Octavius","Cortez","33934856"),(96,"Scarlett","Powers","94600346"),(97,"Fredericka","Sweeney","15959048"),(98,"Joy","Joyner","73947919"),(99,"Price","Watts","84214214"),(100,"Darryl","Carlson","88220377");
+
